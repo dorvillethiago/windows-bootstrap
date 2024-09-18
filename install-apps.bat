@@ -36,6 +36,9 @@ winget install --id Docker.DockerDesktop -e
 echo Installing Discord...
 winget install --id Discord.Discord -e
 
+echo Installing Obsidian...
+winget install --id Obsidian.Obsidian -e
+
 echo Installing Python 3.10...
 winget install --id Python.Python.3.10 -e
 
