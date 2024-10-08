@@ -39,6 +39,9 @@ winget install --id Discord.Discord -e
 echo Installing Notion...
 winget install --id Notion.Notion -e
 
+echo Installing NordPass...
+winget install --id NordPassTeam.NordPass -e
+
 echo Installing Python 3.10...
 winget install --id Python.Python.3.10 -e
 
