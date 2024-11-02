@@ -39,5 +39,10 @@ winget install --id Discord.Discord -e
 echo Installing Python 3.10...
 winget install --id Python.Python.3.10 -e
 
+echo Installing Kumorebi
+winget install --id LGUG2Z.komorebi -e
+echo Copying .json config file
+copy .\komorebi.json %USERPROFILE%\.config\komorebi.json
+
 echo Instalation complete!
 pause
