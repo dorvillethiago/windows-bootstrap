@@ -33,12 +33,12 @@
 			"workspaces": [
 				{
 					"name": "General",
-					"layout": "Columns"
+					"layout": "Grid"
 				},
 				{
 					"name": "Visual Studio Code",
-					"layout": "Columns",
-					"initial_workspace_rules": [
+					"layout": "Grid",
+					"workspace_rules": [
 						{
 							"kind": "Exe",
 							"id": "Code.exe"
@@ -47,8 +47,8 @@
 				},
 				{
 					"name": "Arc Browser",
-					"layout": "Columns",
-					"initial_workspace_rules": [
+					"layout": "Grid",
+					"workspace_rules": [
 						{
 							"kind": "Exe",
 							"id": "Arc.exe"
@@ -57,8 +57,8 @@
 				},
 				{
 					"name": "Discord",
-					"layout": "Columns",
-					"initial_workspace_rules": [
+					"layout": "Grid",
+					"workspace_rules": [
 						{
 							"kind": "Exe",
 							"id": "Discord.exe"
@@ -67,8 +67,8 @@
 				},
 				{
 					"name": "Termius",
-					"layout": "Columns",
-					"initial_workspace_rules": [
+					"layout": "Grid",
+					"workspace_rules": [
 						{
 							"kind": "Exe",
 							"id": "Termius.exe"
@@ -77,21 +77,11 @@
 				},
 				{
 					"name": "Ableton",
-					"layout": "Columns",
-					"initial_workspace_rules": [
+					"layout": "Grid",
+					"workspace_rules": [
 						{
 							"kind": "Exe",
 							"id": "Ableton Live 11 Suite.exe"
-						}
-					]
-				},
-				{
-					"name": "League of Legends",
-					"layout": "Columns",
-					"initial_workspace_rules": [
-						{
-							"kind": "Exe",
-							"id": "LeagueClientUx"
 						}
 					]
 				}
