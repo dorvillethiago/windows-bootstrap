@@ -51,7 +51,7 @@ winget install --id JanDeDobbeleer.OhMyPosh -e
 echo Installing Kumorebi
 winget install --id LGUG2Z.komorebi -e
 echo Copying .json config file
-copy .\komorebi.json %USERPROFILE%\.config\komorebi.json
+copy .\komorebi.json %USERPROFILE%\komorebi.json
 
 echo Instalation complete!
 pause
