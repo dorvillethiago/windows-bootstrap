@@ -45,6 +45,9 @@ winget install --id NordPassTeam.NordPass -e
 echo Installing Python 3.10...
 winget install --id Python.Python.3.10 -e
 
+echo Installing OhMyPosh
+winget install --id JanDeDobbeleer.OhMyPosh -e
+
 echo Installing Kumorebi
 winget install --id LGUG2Z.komorebi -e
 echo Copying .json config file
