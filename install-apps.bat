@@ -51,6 +51,8 @@ winget install --id JanDeDobbeleer.OhMyPosh -e
 echo Installing FancyWM
 winget install fancywm
 
+echo Installing TranslucentTB
+winget install --id CharlesMilette.TranslucentTB -e
 
 echo Instalation complete!
 pause
