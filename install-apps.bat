@@ -51,8 +51,8 @@ winget install --id Python.Python.3.10 -e
 echo Installing OhMyPosh
 winget install --id JanDeDobbeleer.OhMyPosh -e
 
-echo Installing FancyWM
-winget install fancywm
+echo Installing GlazeWM
+winget install --id glzr-io.glazewm  -e
 
 echo Instalation complete!
 pause
