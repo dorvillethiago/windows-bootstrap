@@ -3,6 +3,9 @@
 echo Installing Arc Browser
 winget install --id TheBrowserCompany.Arc -e
 
+echo Installing Zen Browser
+winget install --id Zen-Team.Zen-Browser  -e
+
 echo Installing 7zip
 winget install --id 7zip.7zip -e
 
