@@ -1,7 +1,8 @@
-**Windows Bootstrap** is a repository containing my essential setup for every Windows device I use. It includes a simple script to install applications via `winget`, along with my preferred fonts.
+**Windows Bootstrap** is a repository containing my essential setup for every Windows device I use. It includes a simple script to install applications via `winget`, along with my preferred fonts and scripts.
 
 ## Contents
 
+- **Glaze WM Configuration**: A folder containing the configuration files for the Glaze Window Manager.
 - **install-apps.bat**: A batch script that uses `winget` to automate the installation of applications.
 - **customize-explorer.bat**: A batch script that uses powershell and apis to modify the windows theme 
 - **fonts/**: A folder with fonts that I frequently use.
