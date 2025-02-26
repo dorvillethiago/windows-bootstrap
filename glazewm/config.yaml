@@ -72,7 +72,7 @@ window_effects:
     corner_style:
       enabled: false
       # Allowed values: 'square', 'rounded', 'small_rounded'.
-      style: 'square'
+      style: 'rounded'
 
     # Change the transparency of the window.
     transparency:
@@ -109,7 +109,7 @@ window_behavior:
       centered: true
 
       # Whether to show floating windows as always on top.
-      shown_on_top: false
+      shown_on_top: true
 
     fullscreen:
       # Maximize the window if possible. If the window doesn't have a
@@ -121,8 +121,14 @@ window_behavior:
 
 workspaces:
   - name: '1'
+    bind_to_monitor: 0
+    keep_alive: true
   - name: '2'
+    bind_to_monitor: 1
+    keep_alive: true
   - name: '3'
+    bind_to_monitor: 2
+    keep_alive: true
   - name: '4'
   - name: '5'
   - name: '6'
