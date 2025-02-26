@@ -1,30 +1,53 @@
-**Windows Bootstrap** is a repository containing my essential setup for every Windows device I use. It includes a simple script to install applications via `winget`, along with my preferred fonts and scripts.
+## My personal setup for a fresh windows desktop.
 
-## Contents
+### What is needed before following this guide?
+- A fresh windows installation.
+- A stable internet connection.
+- Winget installed on your system.
 
-- **Glaze WM Configuration**: A folder containing the configuration files for the Glaze Window Manager.
-- **install-apps.bat**: A batch script that uses `winget` to automate the installation of applications.
-- **customize-explorer.bat**: A batch script that uses powershell and apis to modify the windows theme 
-- **fonts/**: A folder with fonts that I frequently use.
+### How can i make sure that winget is installed on my system?
+- Open powershell as an administrator.
+- Run the following command:
+```powershell
+winget
+```
+- If you see a list of commands, then winget is installed on your system.
 
-## Features
+### How can i install winget on my system?
+- Open powershell as an administrator.
+- Run the following command:
+```powershell
+iex ((New-Object System.Net.WebClient).DownloadString('https://winget.run'))
+```
 
-- **Automated Application Installation**: Using the `install-apps.bat` script, you can quickly install all the apps I use on a fresh Windows device with a single command.
-- **Automated Explorer Customizations**: using the `customize-explore.bat` script, you can customize the windows theme and taskbar.
-- **Favorite Fonts**: Includes the fonts that I find useful for different purposes, from programming to design.
+### Installing the apps from the apps.json file
+- Open powershell as an administrator.
+- Run the following command:
+```powershell
+winget import -i apps.json
+```
 
-## How to Use
+### Installing JetBrainsMono Nerd Font (The default VSCode font sucks)
+- Simply install the fonts from the fonts folder.
 
-1. **Clone the repository**:
-   ```
-   git clone https://github.com/dorvillethiago/windows-bootstrap.git
-   cd windows-bootstrap
-   ```
+### Setting up GlazeWM (That's gonna make windows feel like linux)
+You'll need to replace the config in  `C:\Users\<USER>\.glzr\glazewm\config.yaml` with the config in the glazewm folder.
+to do that you'll run the following command:
+```powershell
+cp .\glazewm\config.yaml C:\Users\<USER>\.glzr\glazewm\config.yaml
+```
 
-2. **Run the installer as admin**:
-   ```
-   install-apps.bat
-   ```
+### The aesthetic part
+- Log in into your microsoft account and OneDrive
+- Set one wallpaper from the wallpapers folder.
+- Change your system theme to dark mode.
+- Change your accent color to your wallpapers main one.
+- Set your taskbar placement to left.
+- Set your desktop icons to hidden.
+- Remove that terrible copilot icon from your taskbar.
+- Remove the news and interests widget from your taskbar.
 
-3. **Apply fonts**
-   - Install the `fonts` from the fonts folder by selecting and right-clicking on them, then choosing "Install".
+#### Are you in a laptop? check this little tip out!
+On laptop you might want to activate the battery saver mode, and that unfortunatly will remove the blury effect from the taskbar, if you have a darker wallpaper you might wanna use TranslucentTB to make your taskbar fully transparent and keep some visual consistency. 
+
+## Now you're all set! Enjoy your new setup!
