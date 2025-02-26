@@ -68,5 +68,9 @@ echo Installing GlazeWM...
 winget install --id glzr-io.glazewm -e
 echo.
 
+echo Installing Bun.js
+winget install --id Oven-sh.Bun  -e
+echo.
+
 echo Installation complete!
 pause
