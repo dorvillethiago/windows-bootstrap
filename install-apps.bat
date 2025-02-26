@@ -1,9 +1,5 @@
 @echo off
 
-echo Installing Arc Browser...
-winget install --id TheBrowserCompany.Arc -e
-echo.
-
 echo Installing Zen Browser...
 winget install --id Zen-Team.Zen-Browser -e
 echo.
