@@ -1,4 +1,5 @@
 ## My personal setup for a fresh windows desktop.
+![image](https://github.com/user-attachments/assets/b88dda7a-0156-4101-abb5-10d4e0d260e0)
 
 ### What is needed before following this guide?
 - A fresh windows installation.
