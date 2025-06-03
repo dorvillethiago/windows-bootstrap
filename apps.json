@@ -23,13 +23,7 @@
 					"PackageIdentifier": "Microsoft.VCRedist.2010.x64"
 				},
 				{
-					"PackageIdentifier": "OpenJS.NodeJS.LTS"
-				},
-				{
 					"PackageIdentifier": "GitHub.cli"
-				},
-				{
-					"PackageIdentifier": "Google.Chrome.EXE"
 				},
 				{
 					"PackageIdentifier": "Parsec.Parsec"
